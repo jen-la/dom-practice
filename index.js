@@ -113,6 +113,9 @@ formHobby.addEventListener('submit', (event) => {
     newHobby.innerText = formHobbyText.value;
     newHobby.classList.add('list-group-item');
     hobbyList.appendChild(newHobby);
+    formHobbyText.value = " ";
+    // formHobbyText.reset();
+    // lookup autocomplete=“off” - form tag or input tag
 });
 
 // 6. Challenge: Lists (Part 2)
